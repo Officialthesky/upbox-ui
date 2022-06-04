@@ -1,0 +1,74 @@
+.pricingPlan {
+  width: 1440px;
+  height: 624px;
+}
+.planTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 194px;
+  background-color: white;
+}
+.planTitle h1 {
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+.priceCards {
+  width: 1440px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.priceCard {
+  width: 575px;
+  height: 291px;
+  background-color: aqua;
+  background: #f5f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.priceCard h1 {
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  font-size: 36px;
+  width: 131px;
+  height: 49px;
+}
+.priceCard h2 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 44px;
+  width: 173px;
+  height: 57px;
+}
+.priceCard button {
+  box-sizing: border-box;
+  width: 200px;
+  height: 61px;
+  background: #ef8094;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.planRenewal p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  padding-top: 40px;
+}

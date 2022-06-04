@@ -1,0 +1,156 @@
+.footer {
+  width: 1440px;
+  height: 541px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.innerFooterSection {
+  width: 1381px;
+  height: 479px;
+  background-color: #eeeeee;
+  border: 2px #c4c4c4 solid;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.footerLogoAndSocials {
+  width: 1381px;
+  height: 143px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footerLinks {
+  height: 256.14px;
+  width: 1381px;
+  display: flex;
+  flex-direction: row;
+}
+.footerLinks h1 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  letter-spacing: 0.12em;
+}
+.footerLinks p {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  letter-spacing: 0.12em;
+}
+.footerUpboxLink,
+.footerSocialLinks,
+.footerProductLinks,
+.footerHelpLinks {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.innerFooterUpboxDivision {
+  position: absolute;
+  width: 163px;
+  height: 216px;
+  left: 80px;
+  top: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.innerFooterSocialDivision {
+  position: absolute;
+  width: 163px;
+  height: 187px;
+  left: 426px;
+  top: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.innerFooterProductDivision {
+  position: absolute;
+  width: 143.82px;
+  height: 139.41px;
+  left: 772px;
+  top: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.innerFooterHelpDivision {
+  position: absolute;
+  width: 143.82px;
+  height: 165px;
+  left: 1099px;
+  top: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerPolicies {
+  width: 1381px;
+  height: 70.86px;
+  border: 2px solid #c4c4c4;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerTerms {
+  width: 1059px;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerPolicies p {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  letter-spacing: 0.12em;
+}
+.footerLogo {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.footerLogo img {
+  position: absolute;
+  width: 132.59px;
+  height: 38px;
+  left: 80px;
+  top: 44px;
+}
+
+.footerSocials {
+  width: 50%;
+}
+.footerSocialDivision {
+  position: absolute;
+  width: 197px;
+  height: 26px;
+  right: 85px;
+  top: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

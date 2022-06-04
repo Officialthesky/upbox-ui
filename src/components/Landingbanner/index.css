@@ -1,0 +1,57 @@
+.landingContainer {
+  width: 1440px;
+  height: 545px;
+  background-color: #f5f8ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.leftContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 111px;
+  padding-top: 105px;
+  padding-bottom: 122px;
+  text-align: left;
+}
+.leftContainer h1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  width: 511px;
+  height: 112px;
+  line-height: 56px;
+}
+.leftContainer p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  width: 473px;
+  height: 96px;
+}
+.leftContainer button {
+  box-sizing: border-box;
+  width: 183px;
+  height: 61px;
+  background: #ffffff;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  padding: 20px 49px 20px 49px;
+}
+.rightContainer {
+  width: 1092px;
+  height: 728px;
+}
+.rightContainer img {
+  top: 63px;
+  left: 437px;
+}

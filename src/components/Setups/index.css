@@ -1,0 +1,251 @@
+.workingSection {
+  width: 1440px;
+  height: 1966px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.innerWorkingDivision {
+  position: relative;
+  width: 1237px;
+  height: 1814px;
+  margin-top: 52px;
+}
+.workingSectionTitle {
+  position: absolute;
+  width: 511px;
+  height: 149px;
+  left: 255px;
+  top: opx;
+  text-align: center;
+}
+.workingSectionTitle h1 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+.setUpProfile {
+  position: absolute;
+  width: 965px;
+  height: 405px;
+  left: 0px;
+  top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.setUpProfileFirstPhoto,
+.setUpProfileFirstVector {
+  width: 323px;
+  height: 390px;
+  position: absolute;
+  left: 88px;
+  top: 15px;
+}
+.setUpProfileFirstVector {
+  background-color: #000000;
+}
+.setUpProfileFirstNumber {
+  color: #ef8094;
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 114px;
+  top: 101px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+}
+.setUpProfileFirstArt {
+  position: absolute;
+  width: 288.22px;
+  height: 249.04px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.setUpProfileIntro {
+  width: 554px;
+  padding-left: 43px;
+  text-align: left;
+}
+.setUpProfileIntro h1 {
+  position: absolute;
+  width: 511px;
+  height: 149px;
+  left: 454px;
+  top: 65px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+.setUpProfileIntro p {
+  position: absolute;
+  width: 391px;
+  height: 96px;
+  left: 453px;
+  top: 173px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.setUpReview {
+  position: absolute;
+  width: 1232px;
+  height: 785px;
+  left: 5px;
+  top: 331px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.setUpReview h1 {
+  position: absolute;
+  width: 511px;
+  height: 101px;
+  left: 502px;
+  top: 588px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px !important;
+  color: #000000;
+}
+.setUpReview p {
+  position: absolute;
+  width: 409px;
+  height: 96px;
+  left: 502px;
+  top: 689px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+}
+.setUpReviewImages h1 {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 355px;
+  top: 518px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  color: #ef8094;
+}
+.setUpReviewArt {
+  position: absolute;
+  width: 169.21px;
+  height: 166.85px;
+  left: 360px;
+  top: 311px;
+  z-index: -1;
+}
+.setUpReviewPhoto {
+  position: absolute;
+  width: 1232px;
+  height: 744px;
+  left: 0px;
+  top: 0px;
+}
+.reviewVectorDivision {
+  width: 320.7px;
+  height: 259.35px;
+  position: absolute;
+  top: 190px;
+  left: 625px;
+}
+.setUpTry {
+  position: absolute;
+  width: 880px;
+  height: 415.09px;
+  left: 88px;
+  top: 1186px;
+  text-align: left;
+}
+.setUpTryIntro h1 {
+  position: absolute;
+  width: 511px;
+  height: 91px;
+  left: 369px;
+  top: 83px;
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+.setUpTryIntro p {
+  position: absolute;
+  width: 453px;
+  height: 96px;
+  left: 370px;
+  top: 143px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+}
+.setUpTryImages h1 {
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 0px;
+  top: 94px;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 56px;
+  color: #ef8094;
+}
+.setUpTryArt {
+  position: absolute;
+  width: 195.89px;
+  height: 173.93px;
+  left: 208.97px;
+  top: 241px;
+}
+.setUpTryPhoto {
+  position: absolute;
+  width: 328.05px;
+  height: 415.09px;
+  left: 0px;
+  top: 0px;
+}
+.tryButton {
+  box-sizing: border-box;
+  position: absolute;
+  width: 284px;
+  height: 61px;
+  bottom: 0px;
+  right: 580px;
+  background: #ffffff;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.12em;
+}

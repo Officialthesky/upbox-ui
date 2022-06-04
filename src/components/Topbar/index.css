@@ -1,0 +1,12 @@
+.topBar {
+  width: 100%;
+  height: 10px;
+}
+.topBar img {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
