@@ -3,7 +3,7 @@ import "./index.css";
 export default function Topbar() {
   return (
     <div className="topBar">
-      <img src="TOPBAR 1.png" />
+      <img src="TOPBAR 1.png" alt="topbar" />
     </div>
   );
 }
